@@ -1,12 +1,15 @@
+# GitHub Users in Berlin
+
+This repository contains data about GitHub users in Berlin with over 200 followers and their repositories.
+
+
 - **Data Collection**: This data was scraped from the GitHub API, focusing on GitHub users based in Berlin with over 200 followers as of 2024-10-31. Information gathered includes user details and up to 500 recent repositories per user, providing a comprehensive view of their activity.
 
 - **Key Finding**: Analysis shows that developers who maintain detailed project documentation tend to have more engagement on their repositories. This correlation highlights the importance of accessible information for fostering user interest and interaction with open-source projects.
 
 - **Recommendation**: To enhance user engagement and ensure project clarity, developers are encouraged to enable both wikis and project sections within their repositories. These features offer structured resources and insights, making projects more user-friendly and attracting more community contributions.
 
-# GitHub Users in Berlin
 
-This repository contains data about GitHub users in Berlin with over 200 followers and their repositories.
 
 ## Files
 
