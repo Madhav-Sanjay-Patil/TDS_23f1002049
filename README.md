@@ -1,46 +1,20 @@
-# GitHub User Data Repository
+- Data was scraped from the GitHub API for users in Berlin with over 200 followers as of 2024-10-31.
+- Analysis revealed that developers with project documentation often have higher engagement through repositories.
+- Developers should enable both wikis and project sections on their repositories to boost user engagement and project clarity.
 
-This repository contains data about GitHub users from Berlin with over 200 followers and their public repositories.
+# GitHub Users in Berlin
 
-## Overview
-
-The dataset includes two primary files:
-- **`users.csv`**: Contains user information, including their GitHub username, full name, company, location, email, hireable status, bio, public repositories count, followers count, following count, and the date they joined GitHub.
-- **`repositories.csv`**: Contains information about the public repositories owned by the users, including the repository's full name, creation date, number of stars, number of watchers, programming language used, and whether the repository has projects or a wiki enabled.
+This repository contains data about GitHub users in Berlin with over 200 followers and their repositories.
 
 ## Files
 
-- **`users.csv`**: 
-  - **Columns**:
-    - `login`: GitHub user ID
-    - `name`: Full name of the user
-    - `company`: Company the user works at (cleaned and formatted)
-    - `location`: City of the user
-    - `email`: User's email address
-    - `hireable`: Whether the user is open to hiring
-    - `bio`: A short bio of the user
-    - `public_repos`: Number of public repositories
-    - `followers`: Number of followers
-    - `following`: Number of people the user follows
-    - `created_at`: Date when the user joined GitHub
+1. `users.csv`: Contains information about 610 GitHub users in Berlin with over 200 followers
+2. `repositories.csv`: Contains information about 60995 public repositories from these users
+3. `gitscrap.py`: Python script used to collect this data
 
-- **`repositories.csv`**:
-  - **Columns**:
-    - `login`: GitHub user ID of the owner
-    - `full_name`: Full name of the repository
-    - `created_at`: Date when the repository was created
-    - `stargazers_count`: Number of stars the repository has received
-    - `watchers_count`: Number of watchers on the repository
-    - `language`: Programming language the repository is written in
-    - `has_projects`: Whether the repository has projects enabled
-    - `has_wiki`: Whether the repository has a wiki
-    - `license_name`: Name of the license under which the repository is available
+## Data Collection
 
-## Usage
-
-You can use the provided CSV files for analysis of GitHub users and their repositories. The data can help identify trends in programming languages, user engagement, and other metrics relevant to the GitHub community.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more information.
-
+- Data collected using GitHub API
+- Date of collection: 2024-10-31
+- Only included users with 200+ followers
+- Up to 500 most recently pushed repositories per user
