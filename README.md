@@ -15,7 +15,8 @@ This repository contains data about GitHub users in Berlin with over 200 followe
 
 1. `users.csv`: Contains information about 610 GitHub users in Berlin with over 200 followers
 2. `repositories.csv`: Contains information about 60,995 public repositories from these users
-
+3. `gitscrap.py`: Python script used to collect this data.
+4. `Solutions Folder`: Python files that contain the codes for assignment questions.
 
 ## Data Collection
 
